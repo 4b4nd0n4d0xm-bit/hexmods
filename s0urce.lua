@@ -1633,8 +1633,8 @@ function YIMF0RCEDEVLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				YIMF0RCEDEVLibrary:Notify({
-					Title = "YIMF0RCEDEV Interface",
-					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
+					Title = "YIMF0RCEDEV Premium",
+					Content = "Thanks for using YIMF0RCEDEV! Follow us on Discord/YouTube",
 					Duration = 7,
 					Image = 4370033185,
 				})
