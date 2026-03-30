@@ -1579,8 +1579,8 @@ function YIMF0RCEDEVLibrary:CreateWindow(Settings)
 	end
 
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "YIMF0RCEDEV"
-	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "YIMF0RCEDEV Systems"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Initializing Ultra Premium Modules..."
 
 	if Settings.LoadingTitle ~= "YIMF0RCEDEV Interface Suite" then
 		LoadingFrame.Version.Text = "YIMF0RCEDEV UI"
